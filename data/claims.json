@@ -1,0 +1,17 @@
+[
+  {
+    "claim_id": "TR-10045",
+    "employee_id": "EMP-123",
+    "employee_grade": "G5",
+    "trip_type": "DOMESTIC",
+    "destination": "Delhi",
+    "travel_start": "2026-08-10",
+    "travel_end": "2026-08-12",
+    "expenses": [
+      { "expense_id": "EXP-001", "category": "FLIGHT", "amount": 7200, "receipt_id": "REC-001" },
+      { "expense_id": "EXP-002", "category": "HOTEL", "amount": 8500, "receipt_id": "REC-002" },
+      { "expense_id": "EXP-003", "category": "MEAL", "amount": 2600, "receipt_id": "REC-003" },
+      { "expense_id": "EXP-004", "category": "TAXI", "amount": 900, "receipt_id": "REC-004" }
+    ]
+  }
+]

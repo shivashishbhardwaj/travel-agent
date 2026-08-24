@@ -1,0 +1,19 @@
+{
+  "policy_id": "DOM-TRAVEL-2026",
+  "effective_from": "2026-01-01",
+  "effective_to": "2026-12-31",
+  "rules": {
+    "flight": { "economy_only": true, "max_amount": 15000, "section": "flight-2.1" },
+    "hotel": { "max_per_night": 5000, "nights_limit": 5, "section": "hotel-3.1" },
+    "meal": { "max_per_day": 2000, "section": "meals-4.2" },
+    "taxi": { "max_per_trip": 1500, "section": "taxi-5.1" }
+  },
+  "receipt_required_threshold": 1000,
+  "approval": {
+    "below": 10000,
+    "manager_required": true,
+    "above": 10000,
+    "finance_required": true
+  },
+  "high_value_threshold": 50000
+}

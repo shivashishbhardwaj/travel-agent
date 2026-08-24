@@ -1,0 +1,7 @@
+{
+  "grades": {
+    "G1": { "manager_limit": 5000, "finance_limit": 20000 },
+    "G5": { "manager_limit": 10000, "finance_limit": 50000 },
+    "G8": { "manager_limit": 25000, "finance_limit": 100000 }
+  }
+}
